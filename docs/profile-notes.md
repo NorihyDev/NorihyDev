@@ -12,7 +12,7 @@ The profile owner supplied their student status, school, location and interest i
 
 ## Technology selection
 
-The seven badges are a suggested learning roadmap, not a claim that every language is compulsory at CFPT or already mastered by the profile owner.
+The seven language and web technology badges are a suggested learning roadmap, not a claim that every language is compulsory at CFPT or already mastered by the profile owner.
 
 - [Mathias Orlandi's own account of his CFPT application/web development studies](https://www.malt.com/profile/mathiasorlandi) names C#, PHP, HTML and JavaScript.
 - [Carlos's own account of his CFPT studies and programming tuition](https://www.superprof.fr/eleve-cfpt-informatique-3eme-annee-cours-programmation-python-javascript-php-sql-creation-site.html) names C#, Python, JavaScript, PHP and SQL.
@@ -20,11 +20,13 @@ The seven badges are a suggested learning roadmap, not a claim that every langua
 
 These first-person accounts support a relevant selection; they are not an official exhaustive syllabus. HTML and CSS are grouped as web technologies, and SQL as a query language. The roadmap can be adjusted to the owner's actual modules.
 
+The profile owner subsequently confirmed proficiency in Docker, Git, NoSQL and Slim Framework, and requested their inclusion. These appear as confirmed skills in both the English and French introductions. No specific NoSQL product or additional unnamed skill was inferred. [Slim's official website](https://www.slimframework.com/) describes it as a PHP micro framework for web applications and APIs.
+
 ## Assets
 
-The banner, animation, SQL symbol, badge layouts and divider were made for this repository. All displayed images are local files, with no analytics, live stats widgets or external image-service dependency. The desktop and mobile animations are ordinary looping GIFs, with PNG alternatives for browsers requesting reduced motion.
+The banner, animation, SQL and NoSQL symbols, Slim initial symbol, badge layouts and divider were made for this repository. All displayed images are local files, with no analytics, live stats widgets or external image-service dependency. The desktop and mobile animations are ordinary looping GIFs, with PNG alternatives for browsers requesting reduced motion.
 
-The six language logos are from [Devicon](https://github.com/devicons/devicon), distributed under the MIT license. The license is preserved in `assets/badges/DEVICON-LICENSE.txt`. Product names and logos belong to their respective owners.
+The six language logos and the Docker and Git logos are from [Devicon](https://github.com/devicons/devicon), distributed under the MIT license. The license is preserved in `assets/badges/DEVICON-LICENSE.txt`. Product names and logos belong to their respective owners.
 
 To regenerate the banner, install Pillow in your Python environment and run:
 

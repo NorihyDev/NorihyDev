@@ -47,6 +47,24 @@ A learning roadmap for application and web development — growing step by step.
 | **Applications** | Programming fundamentals, object-oriented design and problem-solving |
 | **Data** | Relational databases, queries and connecting data to applications |
 
+## Tools, frameworks & databases
+
+I'm confident working with **Docker**, **Git**, **NoSQL databases** and **Slim Framework**.
+
+<p align="center">
+  <img src="assets/badges/docker.svg" alt="Docker" height="40">
+  <img src="assets/badges/git.svg" alt="Git" height="40">
+</p>
+<p align="center">
+  <img src="assets/badges/nosql.svg" alt="NoSQL databases" height="40">
+  <img src="assets/badges/slim.svg" alt="Slim Framework" height="40">
+</p>
+
+- **Docker** — containers and consistent development environments.
+- **Git** — version control and working with branches.
+- **NoSQL** — non-relational databases and flexible data models.
+- **Slim Framework** — PHP web applications and APIs.
+
 ## What I'm working towards
 
 - **Build for the web** — clear, responsive interfaces that are easy to use.
@@ -65,6 +83,8 @@ J'apprends à créer des applications et des sites web, à résoudre des problè
 
 **Mon parcours d'apprentissage :** HTML, CSS, JavaScript, PHP, C#, Python et SQL.
 
+**Je maîtrise également :** Docker, Git, les bases de données NoSQL et Slim Framework pour le développement web et les API en PHP.
+
 </details>
 
 <p align="center">
@@ -73,4 +93,4 @@ J'apprends à créer des applications et des sites web, à résoudre des problè
   <sub><b>Learn. Build. Improve. Repeat.</b></sub>
 </p>
 
-<!-- Research and asset credits: docs/profile-notes.md. Technology badges describe a learning roadmap, not a completed qualification or an exhaustive official CFPT language list. -->
+<!-- Research and asset credits: docs/profile-notes.md. The language badges describe a learning roadmap, not an exhaustive official CFPT syllabus. Docker, Git, NoSQL and Slim Framework are skills confirmed by the profile owner. -->

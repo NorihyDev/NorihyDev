@@ -22,6 +22,10 @@ BADGES = [
     ("csharp", "C#", "csharp", "csharp-original.svg", "#b795ed", 92),
     ("python", "Python", "python", "python-original.svg", "#78b9ec", 125),
     ("sql", "SQL", None, None, "#6ee7f7", 100),
+    ("docker", "Docker", "docker", "docker-original.svg", "#69b9ff", 125),
+    ("git", "Git", "git", "git-original.svg", "#f47b50", 92),
+    ("nosql", "NoSQL", None, None, "#b4a1ff", 122),
+    ("slim", "Slim Framework", None, None, "#8dc4ff", 190),
 ]
 
 
@@ -38,8 +42,10 @@ def make_badge(spec):
         icon.attrib.update(x="14", y="9", width="22", height="22")
         icon.attrib.pop("class", None)
         logo = ET.tostring(icon, encoding="unicode")
+    elif slug == "slim":
+        logo = '<circle cx="25" cy="20" r="12" fill="#19304c" stroke="#8dc4ff"/><text x="25" y="26" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#8dc4ff">S</text>'
     else:
-        logo = '<g transform="translate(13 8)" fill="none" stroke="#6ee7f7" stroke-width="1.7"><ellipse cx="12" cy="5" rx="9" ry="3.5"/><path d="M3 5v15c0 4.7 18 4.7 18 0V5M3 12c0 4.7 18 4.7 18 0"/></g>'
+        logo = f'<g transform="translate(13 8)" fill="none" stroke="{color}" stroke-width="1.7"><ellipse cx="12" cy="5" rx="9" ry="3.5"/><path d="M3 5v15c0 4.7 18 4.7 18 0V5M3 12c0 4.7 18 4.7 18 0"/></g>'
     markup = (
         f'<svg xmlns="{SVG}" width="{width}" height="40" viewBox="0 0 {width} 40" role="img" aria-label="{escape(label)}">'
         f'<title>{escape(label)}</title>'
